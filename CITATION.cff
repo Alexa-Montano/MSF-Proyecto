@@ -1,0 +1,32 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Sistema digestivo y reflujo gastroesofagico
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Mildred
+    family-names: Angel Torales
+    email: l23212731@tectijuana.edu.mx
+    affiliation: TecNM/ITT
+  - given-names: Africa Montserrat
+    family-names: Rodriguez Garcia
+    email: l21211891@tectijuana.edu.mx
+    affiliation: TecNM/ITT
+  - given-names: Alexa
+    family-names: Montaño Gomez
+    email: l23212215@tectijuana.edu.mx
+    affiliation: TecNM/ITT
+repository-code: 'https://github.com/Alexa-Montano/MSF-Proyecto'
+keywords:
+  - Sistema gastroesofagico
+  - Funcion de transferencia
+  - Caso y control
+  - Reflujo
+  - Sistema digestivo
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2026-11-26'
