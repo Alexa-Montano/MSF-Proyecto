@@ -82,6 +82,10 @@ Formular y simular un modelo dinámico de segundo orden del sistema gastroesofá
 
 El esófago transporta el bolo alimenticio hacia el estómago; la barrera antirreflujo, que incluye el esfínter esofágico inferior, contribuye a limitar el retorno del contenido gástrico. El modelo representa de forma simplificada las diferencias de comportamiento entre las dos condiciones mediante parámetros eléctricos equivalentes, sin asignarles valores fisiológicos medidos.
 
+### Representación fisiológica (BioRender)
+
+![Diagrama fisiológico del sistema gastroesofágico](Sistema_Digestivo_BIORENDER.png)
+
 ### Topología del circuito equivalente
 
 La fuente $V_e(t)$ alimenta una rama en serie formada por $R_1$ y $L_1$. En el nodo siguiente se conectan dos ramas hacia referencia: una formada por $C_1$ y $R_2$ en serie y otra por $R_3$ y $R_e$ en serie. La salida $V_s(t)$ se mide sobre $R_e$.
@@ -277,13 +281,15 @@ La ganancia de referencia 0.9 requiere una etapa adicional. El montaje físico y
 
 Durante el pulso, se espera que la salida compensada se aproxime a 0.9 V y quede por encima del caso en la parte sostenida del estímulo. La separación durante los transitorios depende de la dinámica de cada sistema.
 
-| Plataforma | Evidencia / estado |
-| --- | --- |
-| Análisis matemático | Ecuaciones y resultados teóricos documentados en este README. |
-| Simulink | [Modelo corregido](MSF_Proyecto_PID_09.slx); comprobar las curvas del Scope. |
-| MATLAB | Cuaderno `Proyecto_SistGastro.mlx`; sincronizar con el modelo final. |
-| Python | Script y exportaciones; regenerar con referencia 0.9. |
-| Laboratorio | Incorporar evidencias experimentales cuando estén disponibles. |
+| Plataforma / Escenario | Evidencia generada |
+| ----- | ----- |
+| **Análisis matemático** | [Análisis matemático proyecto MSF.pdf](An%C3%A1lisis%20matem%C3%A1tico%20proyecto%20MSF.pdf) |
+| **MATLAB / Simulink / Simscape** | [MSF_Proyecto_Angel_Montano_Rodriguez.slx](MSF_Proyecto_Angel_Montano_Rodriguez.slx) |
+| **Cuaderno interactivo MATLAB** | [Proyecto_SistGastro.mlx](Proyecto_SistGastro.mlx) |
+| **Código Python** | [Sistema_Gastro.py](Sistema_Gastro.py) |
+| **Resultados Python (PDF)** | [Control_y_caso.python.pdf](Control_y_caso.python.pdf) |
+| **Resultados Python (PNG)** | [Control_y_caso.python.png](Control_y_caso.python.png) |
+| **Modelo fisiológico BioRender** | [Sistema_Digestivo_BIORENDER.png](Sistema_Digestivo_BIORENDER.png) |
 
 [Volver al contenido](#contenido)
 
@@ -322,19 +328,20 @@ flowchart TD
 
 ## Estructura del repositorio
 
-Estructura propuesta con los nombres de archivos de trabajo disponibles; las gráficas y scripts deben corresponder a la última configuración antes de publicarse.
-
-```text
-.
-├── README.md
-├── MSF_Proyecto_PID_09.slx
-├── Proyecto_SistGastro.mlx
-├── Montano23212215_Proyecto_Gastro.py
-├── Control_y_caso.python.pdf
-└── Control_y_caso.python.png
 ```
-
-Se podrán incorporar el reporte matemático, el esquema fisiológico, las evidencias de laboratorio, `CITATION.cff` y `LICENSE` cuando se definan sus archivos finales.
+.
+├── Análisis matemático proyecto MSF.pdf
+├── CITATION.cff
+├── Control_y_caso.python.pdf
+├── Control_y_caso.python.png
+├── LICENSE
+├── MSF_Proyecto_Angel_Montano_Rodriguez.slx
+├── MSF_Proyecto_Angel_Montano_Rodriguez.slx.autosave
+├── Proyecto_SistGastro.mlx
+├── README.md
+├── Sistema_Digestivo_BIORENDER.png
+└── Sistema_Gastro.py
+```
 
 [Volver al contenido](#contenido)
 
