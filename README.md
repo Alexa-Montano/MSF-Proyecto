@@ -335,6 +335,7 @@ flowchart TD
 .
 ├── Análisis matemático proyecto MSF.pdf
 ├── CITATION.cff
+├── Caso&control_matlab.jpeg
 ├── Control_y_caso.python.pdf
 ├── Control_y_caso.python.png
 ├── LICENSE
