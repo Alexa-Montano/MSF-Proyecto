@@ -46,7 +46,7 @@ Se desarrolla un modelo eléctrico equivalente del sistema gastroesofágico para
 
 El circuito es una analogía académica, no un modelo clínicamente validado ni una propuesta de tratamiento médico.
 
-**Palabras clave:** Sistema gastroesofágico; Reflujo gastroesofágico; Analogía eléctrica RLC; Control y caso; PI; MATLAB; Simulink; Simscape; Python.
+**Palabras clave:** Sistema gastroesofágico; Función de transferencia; Caso y contro; Reflujo; MATLAB; Sistema digestivo; 
 
 [Volver al contenido](#contenido)
 
