@@ -1,3 +1,6 @@
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=Alexa-Montano/MSF-Proyecto)
+
+
 # Proyecto final — Modelado y control del sistema gastroesofágico
 
 Repositorio académico de la asignatura **Modelado de Sistemas Fisiológicos**, del programa de **Ingeniería Biomédica** del Tecnológico Nacional de México / Instituto Tecnológico de Tijuana. El proyecto integra el modelado fenomenológico mediante analogías eléctricas RLC de segundo orden, análisis matemático, simulación computacional y diseño de un controlador PI para comparar una condición sana (**Control**) con una condición patológica (**Caso: reflujo gastroesofágico**).
